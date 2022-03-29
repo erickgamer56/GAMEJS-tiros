@@ -1,0 +1,72 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: #131313;
+}
+main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+.cont{
+    width: 81%;
+    height: 80%;
+    background-color: white;
+    border-radius: 20px;
+    overflow: hidden;
+    position: relative;
+    background-image: url(../img/wallpaperbetter.com_1366x768.jpg);
+    background-size: cover;
+    cursor: crosshair;
+    user-select: none;
+}
+.linha{
+    position: absolute;
+    bottom: 0;
+    height: 50px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.perso{
+    width: 40px;
+    height: 10px;
+    background-color: cyan;
+    filter: drop-shadow(0px 0px 5px #00ffff);
+    border: 1px solid cyan;
+    transition: transform 0.1s;
+    position: relative;
+    z-index: 1;
+}
+.all{
+    color: white;
+    font-size: 20px;
+    font-family: arial;
+    font-weight: bold;
+    margin-right: 12px;
+}
+#bullet{
+    width: 10px;
+    height: 13px;
+    background-color: white;
+    position: absolute;
+    transition: transform 30s linear;
+    filter: drop-shadow(0px 10px 15px rgb(255, 0, 0));
+    border: 1px solid white;
+}
+.info{
+    color: white;
+    font-size: 20px;
+    font-family: arial;
+    position: absolute;
+    top: 0;
+    font-weight: bold;
+    margin-top: 20px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
